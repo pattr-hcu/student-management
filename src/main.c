@@ -58,8 +58,9 @@ int main() {
                     if (idx != -1) {
                         printf("Student found:\n");
                         printf("ID: %d\n", students[idx].id);
-                        printf("Name: %s", students[idx].name);
+                        printf("Name: %s\n", students[idx].name);
                         printf("Score: %.2f\n", students[idx].score);
+                        printf("Grade: %c\n", calculateGrade(students[idx].score));
                     } else {
                         printf("\nStudent ID %d not found.\n", id);
                     }
@@ -130,7 +131,8 @@ void addStudent() {
 
         printf("Input Name: ");
         fgets(name,sizeof(name), stdin);
-        
+        name[strcspn(name, "\n")] = '\0';
+
         printf("Input Score: ");
         scanf("%f",&score);
         
@@ -170,9 +172,9 @@ void showStudent() {
     }
 
     printf("Student List:\n");
-    printf("%-10s %-30s %-10s %-10s\n", "ID", "Name", "Score", "Grade");
+    printf("%-10s %-40s %-10s %-10s\n", "ID", "Name", "Score", "Grade");
     for (int i = 0; i < studentCount; i++) {
-        printf("%-10d %-30s %-10.2f %-10c\n", students[i].id, students[i].name, students[i].score, calculateGrade(students[i].score));
+        printf("%-10d %-40s %-10.2f %-10c\n", students[i].id, students[i].name, students[i].score, calculateGrade(students[i].score));
     }
 }
 
@@ -261,16 +263,17 @@ void showStatistic(struct Student S[], int n) {
     int i;
     float total = 0, avg;
 
-    printf("\n===== Show Statistics =====\n");
+    printf("\n------- Show Statistics -------\n");
+    printf("%-10s %-40s %-10s %-10s\n", "ID", "Name", "Score", "Grade");
     for (i = 0; i < n; i++) {
-        printf("%d  %-10s  %.1f  %c\n", S[i].id, S[i].name, S[i].score, calculateGrade(S[i].score));
+        printf("%-10d %-40s %-10.2f %-10c\n", S[i].id, S[i].name, S[i].score, calculateGrade(S[i].score));
         total += S[i].score; 
     }
     avg = total /n;
 
-    printf("=========================\n");
-    printf("Total Score : %.1f\n", total);
-    printf("Average Score : %.2f\n",avg);
+    printf("---------------------------------\n");
+    printf("Total Score : %-4.1f\n", total);
+    printf("Average Score : %-4.2f\n",avg);
 }
 
 // Assigned to Diw
