@@ -1,0 +1,40 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="H5BKrDBYI2i-BNbEyRVJ">
+    <mxGraphModel dx="1203" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XNd0WQXJRYtPdeJX8qZ8-1" edge="1" parent="1" source="X_1WYYwrj5LNHnSHDo2a-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;" target="X_1WYYwrj5LNHnSHDo2a-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_1WYYwrj5LNHnSHDo2a-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Start" vertex="1">
+          <mxGeometry height="40" width="100" x="374.75" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="XNd0WQXJRYtPdeJX8qZ8-3" edge="1" parent="1" source="X_1WYYwrj5LNHnSHDo2a-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;" target="XNd0WQXJRYtPdeJX8qZ8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_1WYYwrj5LNHnSHDo2a-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=96;" value="&lt;div&gt;--------------------------------------&lt;/div&gt;&lt;div&gt;&amp;nbsp;Welcome to Student Management System&lt;/div&gt;&lt;div&gt;--------------------------------------&lt;/div&gt;&lt;div&gt;1. Add Student&lt;/div&gt;&lt;div&gt;2. List Students&lt;/div&gt;&lt;div&gt;3. Find Student&lt;/div&gt;&lt;div&gt;4. Show Highest/Lowest Student by score&lt;/div&gt;&lt;div&gt;5. Sort Students by Score&lt;/div&gt;&lt;div&gt;6. Show Students Statistics&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;9. Exit&lt;/div&gt;&lt;div&gt;--------------------------------------&lt;/div&gt;&lt;div&gt;Enter :&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="372" x="239" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="X_1WYYwrj5LNHnSHDo2a-22" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Stop" vertex="1">
+          <mxGeometry height="40" width="100" x="374.75" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="X_1WYYwrj5LNHnSHDo2a-24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;int showMenu()&lt;/h1&gt;&lt;p&gt;Assinged to (690331) Mr. Pattarapong Sowcharoen&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="322.5" x="37.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XNd0WQXJRYtPdeJX8qZ8-5" edge="1" parent="1" source="XNd0WQXJRYtPdeJX8qZ8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="XNd0WQXJRYtPdeJX8qZ8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XNd0WQXJRYtPdeJX8qZ8-2" parent="1" style="html=1;strokeWidth=2;shape=manualInput;boundedLbl=1;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ch" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="XNd0WQXJRYtPdeJX8qZ8-6" edge="1" parent="1" source="XNd0WQXJRYtPdeJX8qZ8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="X_1WYYwrj5LNHnSHDo2a-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XNd0WQXJRYtPdeJX8qZ8-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="return ch" vertex="1">
+          <mxGeometry height="40" width="120" x="365" y="730" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
