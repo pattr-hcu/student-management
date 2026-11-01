@@ -147,14 +147,14 @@ void addStudent() {
 
 // Assigned to Man
 void removeStudent() {
-    int id, idx;
+    int i, id, idx;
 
     printf("Enter Student ID to remove: ");
     scanf("%d", &id);
     idx = findStudent(&id);
 
     if (idx != -1) {
-        for (int i = idx; i < studentCount - 1; i++) {
+        for (i = idx; i < studentCount - 1; i++) {
             students[i] = students[i + 1];
         }
         studentCount--;
