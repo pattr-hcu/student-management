@@ -145,7 +145,7 @@ void addStudent() {
 	else printf("\nStudent ID Already Exist");
 }
 
-// Assigned to Ponl
+// Assigned to Man
 void removeStudent() {
     int id, idx;
 
